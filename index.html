@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unimart - Download</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .download-card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+        .logo {
+            width: 100px;
+            margin-top: 100px;
+        }
+        .app-name {
+            font-size: 28px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .app-description {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .download-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: background-color 0.3s;
+        }
+        .download-button:hover {
+            background-color: #45a049;
+        }
+        .coming-soon-button {
+            background-color: #e0e0e0;
+            color: #a0a0a0;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 15px;
+            cursor: not-allowed;
+        }
+        .apple-icon, .android-icon {
+            width: 24px;
+            height: 24px;
+        }
+        .details-section {
+            margin-top: 30px;
+            text-align: left;
+            color: #333;
+        }
+        .details-section h2 {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .details-section p {
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 480px) {
+            .logo{
+                margin-top: 30px;
+            }
+            .download-card {
+                padding: 30px;
+            }
+            .app-name {
+                font-size: 24px;
+            }
+            .app-description {
+                font-size: 15px;
+            }
+            .download-button, .coming-soon-button {
+                padding: 12px 24px;
+                font-size: 16px;
+            }
+            .details-section h2 {
+                font-size: 18px;
+            }
+            .details-section p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="download-card">
+        <img src="unimart.png" alt="Unimart Logo" class="logo">
+        <h1 class="app-name">Unimart</h1>
+        <p class="app-description">Your one-stop shop for all your needs. Download the official Android app now.</p>
+        <a href="app-release.apk" class="download-button" download>
+            <svg class="android-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M17 19.63C17.65 18.76 18 17.68 18 16.5C18 14.15 16.44 12.22 14.5 11.55V10.5C14.5 9.67 13.83 9 13 9H11C10.17 9 9.5 9.67 9.5 10.5V11.55C7.56 12.22 6 14.15 6 16.5C6 17.68 6.35 18.76 7 19.63" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M14.5 10.5V7.5C14.5 6.67 13.83 6 13 6H11C10.17 6 9.5 6.67 9.5 7.5V10.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M10.13 3.42L10.5 3" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M13.87 3.42L13.5 3" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M7.5 15C7.5 14.17 8.17 13.5 9 13.5H15C15.83 13.5 16.5 14.17 16.5 15V16.5C16.5 17.33 15.83 18 15 18H9C8.17 18 7.5 17.33 7.5 16.5V15Z" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+            <span>Download for Android</span>
+        </a>
+        <div class="coming-soon-button">
+
+            <svg class="apple-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M17.49 16.3C17.49 16.3 18.54 14.42 18.44 12.45C18.44 12.45 16.83 12.23 15.61 13.55C15.61 13.55 14.83 11.86 13.22 11.83C11.66 11.79 10.72 12.84 10.1 13.55C8.98001 14.82 7.49001 14.72 7.49001 14.72C7.49001 14.72 6.27001 16.99 7.16001 19.22C7.16001 19.22 8.51001 21.99 10.81 21.93C13.11 21.87 13.64 20.27 15.38 20.21C17.12 20.15 17.54 21.99 19.59 21.93C21.64 21.87 22.49 18.99 22.49 18.99C22.49 18.99 21.49 16.3 19.49 16.3C17.49 16.3 17.49 17.35 17.49 17.35C17.49 17.35 17.49 16.3 17.49 16.3Z" stroke="#a0a0a0" stroke-width="1.5"></path> <path d="M15.5 11.5C16 9.5 15 7.5 13.5 6.5C12.5 5.8 11.5 6 10.5 6.5" stroke="#a0a0a0" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+            <span>Coming Soon for iOS</span>
+        </div>
+        <div class="details-section">
+            <h2>How It Works</h2>
+            <p>Unimart is a platform designed to seamlessly connect buyers and sellers directly through WhatsApp.</p>
+            <p>Browse products from various sellers, contact them with a single tap, and arrange your purchase—all within your favorite messaging app.</p>
+        </div>
+    </div>
+
+</body>
+</html>
